@@ -1,0 +1,6 @@
+django==4.2.3
+django-test==0.4030
+psycopg2-binary==2.9.6
+django-environ==0.10.0
+djangorestframework
+djangorestframework-simplejwt==5.2.2
