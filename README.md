@@ -13,9 +13,11 @@ The goal is to build a simple backend for a table builder app, where the user ca
 ## Install
 I won't go into details how to install postgres, app requirements, run db migrations or start the server.
 Just be aware that you need the following env variables (using django-environ):
+```
 DATABASE_HOST=localhost
 DATABASE_NAME=ddt
 DATABASE_USER=postgres
 DATABASE_PORT=5432
 DATABASE_PASSWORD=<YOUR_DB_PASSWORD>
 SECRET_KEY=<YOUR_SECRET_KEY>
+```
